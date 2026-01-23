@@ -1,21 +1,8 @@
 
 
 .font-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-}
-
-#navitation {
-    display: flex;
-    justify-content: space-around;
-    width: 1600px;
-    height: 92px;
-    /*padding: 16px 120px;*/
-    background-color: white;
-    border: 1px red;
-}
-
-.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
     width: 1600px;
     display: flex;
     flex-direction: column;
@@ -23,11 +10,41 @@
     margin: 0 auto;
 }
 
-#menu {
+nav {
     display: flex;
+    width: 1360px;
+    height: 92px;
+    background-color: white;
+    border: 1px red;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0;
+}
+
+#menu {
+    width: auto;
+    margin: 0;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
     gap: 32px;
-    width: 365px;
-    height: 24px;  
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.items {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
 }
 
 .btn {
@@ -44,6 +61,7 @@
     padding: 12px 16px 12px 16px;
     gap: 10px;
     border-radius: 4px;
+    margin: 0;
 }
 
 .banner {
