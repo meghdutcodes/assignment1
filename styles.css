@@ -1,13 +1,14 @@
 
-
 .font-inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+    padding: 0;
 }
 
 nav {
@@ -71,7 +72,6 @@ nav {
 }
 
 
-
 .banner {
     background-color: rgb(251, 251, 251);
     Width: 1600px;
@@ -94,7 +94,6 @@ nav {
 }
 
 .hero-container {
-    Height: 379px;
     Width: 1360px;
     display: flex;
     flex-direction: column;
@@ -112,6 +111,7 @@ nav {
     border-radius: 1000px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .dot {
@@ -158,6 +158,15 @@ nav {
     width: 770;
     height: 168;
     opacity: 0.9;
+    margin: 16px auto;
+}
+
+.white-line {
+    color: white;
+}
+
+.green-line {
+    color: #30B868;
 }
 
 .btn2 {
@@ -165,6 +174,9 @@ nav {
     flex-direction: row;
     gap: 16px;
     margin-top: 32px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn3 {
@@ -193,7 +205,6 @@ nav {
     background-color: #30B868;
 }
 
-
 .btn4 {
     border: 1px solid white;
     font-weight: 600;
@@ -219,14 +230,6 @@ nav {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.white-line {
-    color: white;
-}
-
-.green-line {
-    color: #30B868;
-}
-
 .description {
     width: 1360px;
     height: 60px;
@@ -235,6 +238,7 @@ nav {
     text-align: center;
     line-height: 24px;
     font-size: 18px;
+    margin: 0 auto;
 }
 
 .notes {
@@ -398,7 +402,7 @@ nav {
     gap: 6px;
 }
 
-.last-section {
+/* .last-section {
     width: 1600px;
     height: 506px;
     padding-top: 2px;
@@ -407,21 +411,21 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.last-main-div {
+.last-section {
     background-color: #F7F6F2;
     width: 1360px;
-    height: 384px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-right: 40px;
-    padding-left: 40px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
+    margin-bottom: 120px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .before-footer-2 {
@@ -431,10 +435,10 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 80px;
     margin-bottom: 24px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .last-h3 {
@@ -444,10 +448,7 @@ nav {
     font-weight: 700;
     color: #001931;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 16px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
 }
 
 .last-p-2 {
@@ -462,11 +463,15 @@ nav {
 
 .before-footer {
     width: 1360px;
-    height: 88px;
+    /* height: 88px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
 }
 
 .last-btn {
@@ -495,12 +500,13 @@ nav {
 
 .last-p {
     width: 1280px;
-    height: 48px;
+    /* height: 48px; */
     font-size: 16px;
     font-weight: 400;
     color: #627382;
     text-align: center;
     line-height: 20px;
+    margin: 0;
 }
 
 footer {
