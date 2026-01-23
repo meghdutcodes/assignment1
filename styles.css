@@ -38,6 +38,7 @@ nav {
     font-size: 16px;
     font-weight: 500;
     color: black;
+    padding: 0;
 }
 
 .items {
@@ -62,7 +63,14 @@ nav {
     gap: 10px;
     border-radius: 4px;
     margin: 0;
+    cursor: pointer;
 }
+
+.btn:hover {
+    background-color: #30B868;
+}
+
+
 
 .banner {
     background-color: rgb(251, 251, 251);
@@ -177,7 +185,14 @@ nav {
     align-items: center;
     gap: 10px;
     border-radius: 4px;
+    cursor: pointer;
 }
+
+
+.btn3:hover {
+    background-color: #30B868;
+}
+
 
 .btn4 {
     border: 1px solid white;
@@ -197,6 +212,11 @@ nav {
     align-items: center;
     gap: 10px;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn4:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .white-line {
@@ -466,6 +486,11 @@ nav {
     margin-left: 0px;
     margin-right: 0px;
     box-shadow: 0px 10px 20px 0px #00000026;
+    cursor: pointer;
+}
+
+.last-btn:hover {
+    background-color: #30B868;
 }
 
 .last-p {
