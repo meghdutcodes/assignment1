@@ -365,11 +365,10 @@
     height: 506px;
     padding-top: 2px;
     padding-bottom: 120px;
-    padding-right: 120px;
-    padding-left: 120px;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .last-main-div {
@@ -459,5 +458,101 @@
     color: #627382;
     text-align: center;
     line-height: 20px;
+}
+
+footer {
+    width: 1600px;
+    background-color: #001931;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    width: 1360px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 790px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.social-links {
+    width: 220px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.social-link-text {
+    color: white;
+    width: 113px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.social-icon-container {
+    width: 92px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: left;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-fb {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.copy-right {
+    width: 1360px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #E5E7EB;
+    margin: 0;
+}
+
+.copy-right-text {
+    width: 1360px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FAFAFA;
+    margin: 0;
 }
 
